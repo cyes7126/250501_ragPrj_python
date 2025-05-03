@@ -1,0 +1,77 @@
+[
+  {
+    "question": "장해의 정의는 무엇인가요?",
+    "answer_pages": [11],
+    "type": "keyword"
+  },
+  {
+    "question": "계약자는 언제든지 계약을 해지할 수 있나요?",
+    "answer_pages": [2],
+    "type": "keyword"
+  },
+  {
+    "question": "보험금 청구권의 소멸시효는 몇 년인가요?",
+    "answer_pages": [6],
+    "type": "keyword"
+  },
+  {
+    "question": "보험계약을 무효로 하는 경우는 어떤 경우인가요?",
+    "answer_pages": [2],
+    "type": "keyword"
+  },
+  {
+    "question": "보장개시일은 언제부터인가요?",
+    "answer_pages": [3],
+    "type": "keyword"
+  },
+  {
+    "question": "같은 상해로 여러 장해가 생기면 어떻게 보상하나요?",
+    "answer_pages": [5],
+    "type": "embedding"
+  },
+  {
+    "question": "보험료를 연체하면 어떤 일이 발생하나요?",
+    "answer_pages": [3],
+    "type": "embedding"
+  },
+  {
+    "question": "사고 이후 병원에서 어떤 서류를 제출해야 하나요?",
+    "answer_pages": [8],
+    "type": "embedding"
+  },
+  {
+    "question": "보험 가입 후 직업이 바뀌면 어떻게 해야 하나요?",
+    "answer_pages": [19],
+    "type": "embedding"
+  },
+  {
+    "question": "보험금 지급이 지연되면 보상받을 수 있나요?",
+    "answer_pages": [100],
+    "type": "embedding"
+  },
+  {
+    "question": "고의로 사고가 발생했을 경우 보험금은 지급되나요?",
+    "answer_pages": [5],
+    "type": "hybrid"
+  },
+  {
+    "question": "보험 가입 전에 병력을 숨기면 어떻게 되나요?",
+    "answer_pages": [7],
+    "type": "hybrid"
+  },
+  {
+    "question": "담당자의 실수로 손해를 입은 경우 보상받을 수 있나요?",
+    "answer_pages": [10],
+    "type": "hybrid"
+  },
+  {
+    "question": "자원봉사자가 집으로 가는 길에 사고를 내면 보험 적용이 되나요?",
+    "answer_pages": [90],
+    "type": "hybrid"
+  },
+  {
+    "question": "보험 가입 이후 파산하면 보험은 어떻게 되나요?",
+    "answer_pages": [10],
+    "type": "hybrid"
+  }
+]
