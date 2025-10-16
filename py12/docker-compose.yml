@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  py12:
+    build:
+      context: .
+    container_name: py12
+    ports:
+      - "5001:5001"
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1

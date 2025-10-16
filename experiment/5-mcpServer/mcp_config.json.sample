@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "google-maps": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@smithery-ai/google-maps",
+        "--key",
+        "사용자키",
+      ]
+    },
+    "weather-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@glassBead-tc/weather-mcp",
+        "--key",
+        "사용자키",
+      ]
+    }
+  }
+}

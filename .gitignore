@@ -1,0 +1,25 @@
+# IDE
+.idea
+
+# milvus
+milvus/etcd
+milvus/milvus
+milvus/minio
+milvus/attu
+
+# python
+docker/py12/src/.env
+docker/py12/src/google_token.json
+__pycache__
+
+
+# common
+comm/.env
+comm/api/credentials.json
+comm/api/google_token.json
+
+# experiment
+experiment/5-mcpServer/mcp_config.json
+
+# share
+share
